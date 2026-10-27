@@ -1,0 +1,36 @@
+# Secrets and environment variables
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.pfx
+*.p12
+id_rsa
+id_ed25519
+
+# VMware virtual machines and virtual disks
+*.vmdk
+*.vmem
+*.vmsd
+*.vmsn
+*.vmss
+*.nvram
+*.vmx
+*.vmxf
+
+# Backups and database dumps
+*.bak
+*.backup
+*.dump
+*.sql.gz
+
+# Temporary files
+*.tmp
+*.log
+*.swp
+Thumbs.db
+.DS_Store
+
+# Local VS Code configuration
+.vscode/
